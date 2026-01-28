@@ -23,20 +23,16 @@ Add it to your `opencode.json`:
 
 ## Configuration
 
-Add the following section to your `opencode.json`:
+Create a configuration file at `~/.config/opencode/plugins/discord-notification-config.json`:
 
 ```json
 {
-  "discordNotifications": {
-    "enabled": true,
-    "webhookUrl": "https://discord.com/api/webhooks/...",
-    "username": "OpenCode Notifier",
-    "avatarUrl": "https://opencode.ai/logo.png"
-  }
+  "enabled": true,
+  "webhookUrl": "https://discord.com/api/webhooks/...",
+  "username": "OpenCode Notifier",
+  "avatarUrl": "https://opencode.ai/logo.png"
 }
 ```
-
-> **Note:** If your OpenCode version has strict schema validation and doesn't allow the `discordNotifications` key, the plugin will also look for a configuration file at `~/.config/opencode/plugins/discord-notification-config.json`.
 
 ## Development
 
