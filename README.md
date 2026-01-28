@@ -23,7 +23,7 @@ Add it to your `opencode.json`:
 
 ## Configuration
 
-Create a configuration file at `~/.config/opencode/plugins/discord-notification-config.json`:
+Create a configuration file at `~/.config/opencode/discord-notification-config.json`:
 
 ```json
 {
